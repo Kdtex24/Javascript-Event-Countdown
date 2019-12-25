@@ -8,7 +8,7 @@ function stopStimer(){
 
 function startCountDownTimer(){
 	var today = new Date();
-	var target = new Date("June 3, 2020 00:00:00");
+	var target = new Date("January 1, 2020 00:00:00");
 	var currentTime = today.getTime();
 	var targetTime = target.getTime();
 	
