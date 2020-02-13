@@ -1,5 +1,5 @@
 function stopStimer(){
-	document.getElementById('title').innerHTML = "HAPPY NEW YEAR!";
+	document.getElementById('title').innerHTML = "MY BIRTHDAY COUNTDOWN!";
 	document.getElementById('days').innerHTML = "<center><h1>00</h1></center>";
 	document.getElementById('hrs').innerHTML = "<center><h1>00</h1></center>";
 	document.getElementById('min').innerHTML = "<center><h1>00</h1></center>";
@@ -8,7 +8,7 @@ function stopStimer(){
 
 function startCountDownTimer(){
 	var today = new Date();
-	var target = new Date("January 1, 2020 00:00:00");
+	var target = new Date("June 3, 2020 00:00:00");
 	var currentTime = today.getTime();
 	var targetTime = target.getTime();
 	
